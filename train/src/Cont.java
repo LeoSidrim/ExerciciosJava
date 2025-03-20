@@ -5,7 +5,7 @@ public class Cont {
         int x = sc.nextInt();
         for(int i =1; i<=x;i++) {
             if (i % 2 ==1) {
-                System.out.println("Número : " + i);
+                System.out.println("Number : " + i);
             }
 
         }
@@ -13,4 +13,4 @@ public class Cont {
         }
 
     }
-// contador de número ímpares
+// contador de Number ímpares
