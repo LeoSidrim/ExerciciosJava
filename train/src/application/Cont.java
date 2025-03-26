@@ -1,3 +1,5 @@
+package application;
+
 import java.util.Scanner;
 public class Cont {
     public static void main (String[] args){

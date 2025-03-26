@@ -1,3 +1,5 @@
+package application;
+
 import java.util.Scanner;
 public class Quest6 {
     public static void main (String[] args){
