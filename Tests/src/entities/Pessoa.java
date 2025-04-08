@@ -8,7 +8,7 @@ public class Pessoa {
         System.out.println("Olá meu nome é "+ name+ "e tenho "+idade+" anos.");
     }
 }
-
+//Simple system to learning how classes, methods and object work
 class Main {
     public static void main (String[] args){
         Scanner sc = new Scanner (System.in);
