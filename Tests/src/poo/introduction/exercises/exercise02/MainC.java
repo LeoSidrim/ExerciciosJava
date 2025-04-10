@@ -1,5 +1,5 @@
-package application;
-import entities.Student;
+package poo.introduction.exercises.exercise02;
+
 import java.util.Scanner;
 
 public class MainC {

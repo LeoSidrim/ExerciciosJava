@@ -1,8 +1,8 @@
-package application;
+package poo.introduction.exercises.exercise03;
 
 import java.util.Locale;
 import java.util.Scanner;
-import util.CurrencyConverter;
+
 public class Program {
     public static void main (String[] args){
         Locale.setDefault(Locale.US);

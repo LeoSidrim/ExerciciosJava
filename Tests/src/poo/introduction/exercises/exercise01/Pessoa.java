@@ -1,4 +1,4 @@
-package entities;
+package poo.introduction.exercises.exercise01;
 import java.util.Scanner;
 public class Pessoa {
     public String name;

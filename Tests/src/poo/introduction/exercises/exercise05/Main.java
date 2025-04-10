@@ -1,16 +1,16 @@
-package application;
+package poo.introduction.exercises.exercise05;
 import java.util.Scanner;
-import entities.Employee;
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Employee employee = new Employee();
         System.out.print("Name: ");
-        employee.name = (sc.nextLine());
+        String name = (sc.nextLine());
         System.out.print("Gross salary: ");
-        employee.grossSalary = (sc.nextDouble());
+        double grossSalary = (sc.nextDouble());
         System.out.print("tax: ");
-        employee.tax = (sc.nextDouble());
+        double tax = (sc.nextDouble());
+        Employee employee = new Employee(name,grossSalary,tax);
         System.out.println("Employee: "+ employee.name+", $" +employee.netSalary());
         System.out.print("Which percentage to increase salary? ");
         employee.increaseSalary((sc.nextDouble()));

@@ -1,4 +1,4 @@
-package application;
+package poo.introduction.exercises.exercise04;
 import java.util.Scanner;
 import java.util.Locale;
 //Testing static members with direct reference in the same Class
