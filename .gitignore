@@ -1,0 +1,13 @@
+# IntelliJ IDEA
+.idea/
+.Tests/
+*.iml
+
+# Compilados
+out/
+build/
+*.class
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
