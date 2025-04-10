@@ -6,5 +6,5 @@ serves as part of my portfolio.
 
 ## Modules 📚
 
-- [Introdução à POO 📦](./introduction/README.md)
+- [Introdução à POO 📦](java-journey/src/poo/introduction/README.md)
 - []
