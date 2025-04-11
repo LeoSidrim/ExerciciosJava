@@ -7,6 +7,6 @@ com outros estudantes. E também, faz parte do meu portfólio.
 
 
 ## Módulos 📚
-
+- [Pré OOP 🧠](java-journey/src/pre_oop/README-pt_BR.md)
 - [Introdução a OOP 📦](java-journey/src/poo/introduction/README-pt_BR.md)
 - []
