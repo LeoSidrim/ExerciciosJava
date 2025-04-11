@@ -1,6 +1,7 @@
 > [Voltar para o menu](../../../../README-pt_BR.md)
 # Introdução a OOP (Programação orientada a Objetos)
 
+---
 ## 📌 Tópicos abordados
 - O que é OOP
 - Classes e Objetos
@@ -10,6 +11,7 @@
 - - Palavra this
 - - Sobrecarga
 - - Encapsulamento
+---
 
 ## 📚 Sumário teórico
 Nessa seção, eu darei uma explicação sobre os conceitos acima, em minhas próprias palavras,
