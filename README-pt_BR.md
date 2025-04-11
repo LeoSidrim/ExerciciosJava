@@ -1,10 +1,12 @@
+> 🇺🇸 English version available [here](README.md) 🟢
 # JAVA DEV JOURNEY (Junior to senior) 🚀
-This repository contains Java my journey learning Java.
-I´m doing this project to stay organize, track my progress and share my knowledge with other students. And also,
-serves as part of my portfolio.
+Este repositório contém minha jornada aprendendo Java.
+Estou fazendo este projeto para me manter mais organizado, monitorar meu progresso e compartilhar meu conhecimento
+com outros estudantes. E também, faz parte do meu portfólio.
 
 
-## Modules 📚
 
-- [Introduction for POO 📦](java-journey/src/poo/introduction/README.md)
+## Módulos 📚
+
+- [Introdução a OOP 📦](java-journey/src/poo/introduction/README-pt_BR.md)
 - []

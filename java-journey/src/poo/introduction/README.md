@@ -8,7 +8,8 @@
 - Method Chaining
 
 ## 📚 Theoretical Summary
-In this section, I’ll share a brief explanation of the concepts above, written in my own words, as a way to reinforce my learning and help other students who are just starting with Java.
+In this section, I’ll share a brief explanation of the concepts above, written in my own words, as a way to reinforce my
+learning and help other students who are just starting with Java or are learning OOP.
 
 - ### what is OOP?
-- - Basically OOP is one of 4 programming paradigms. When we are using OOP, we can represent something in a form of the object. It´s good to 
+- - OOP is one of 4 programming paradigms. When we are using OOP, we can represent something in a form of the object. It´s good to 
