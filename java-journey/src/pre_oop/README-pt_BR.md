@@ -4,13 +4,23 @@
 --- 
 ## 📌 Tópicos abordados
 - Estrutura sequencial
-- - Expressões aritméticas
-- - - operadores aritméticos
-- Estrutura condicional
-- Estrutura repetitiva
+- - 📌 Entrada e saída de dados
+- - ✏️ Declaração de variáveis
+- - 🔢 Tipos de dados primitivos
+- - 🧮 Operadores aritméticos
+- - 💡 Precedência de operadores
+- - 🧠 Casting (conversão de tipos)
+- - 📏 Ordem lógica da execução
+- - 🧾 Concatenação de strings
+- - 🧊 Constantes (final em Java)
+- - 📐 Exercícios com expressões matemáticas simples
 
 --- 
 
 ## Estrutura sequencial
-- Expressões aritméticas
-- - As regras de expressões aritméticas não muda
+- Entrada e saída de dados
+- - A entrada de dados em Java pode confundir um pouco no começo, mas, na verdade, é bem simples.
+ Para conseguirmos inserir dados dentro do sistema podemos utilizar um objeto.
+```
+
+```
