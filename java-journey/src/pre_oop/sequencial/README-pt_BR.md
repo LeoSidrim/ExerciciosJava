@@ -8,7 +8,7 @@
 - - ✏️ Declaração de variáveis
 - - 🔢 Tipos de dados primitivos
 - - 🧮 Operadores aritméticos
-- - 💡 Precedência de operadores
+- - - 💡 Precedência de operadores
 - - 🧠 Casting (conversão de tipos)
 - - 📏 Ordem lógica da execução
 - - 🧾 Concatenação de strings
@@ -76,3 +76,5 @@ public class Main {
 ```
 - - Existem mais alguns especificadores de formatos, mas estes são os principais.
 - - -
+## Declaração de variáveis
+- -
