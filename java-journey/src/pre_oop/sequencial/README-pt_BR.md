@@ -77,4 +77,71 @@ public class Main {
 - - Existem mais alguns especificadores de formatos, mas estes são os principais.
 - - -
 ## Declaração de variáveis
-- -
+- Declaração de variáveis é algo básico e muito simples. Temos apenas que nos atentar em
+ seguir uma sequência.
+```java
+public class Main
+{
+ public static void main(String[] args) {
+  int num = 10;
+  String nome = "Java"; // Tipo nome = valor
+  boolean x = true;
+  float f = 3.23f; // Obrigatório usar f após número
+ }
+ 
+}
+```
+- - -
+## Tipos de dados primitivos
+![img.png](img.png)
+- - -
+## Operadores aritméticos
+![img_1.png](img_1.png)
+- - Assim como na matemática usual, devemos seguir a precedência dos operados para realizar uma conta aritmética.
+```java
+public class Main
+{
+	public static void main(String[] args) {
+		
+		int a = 10 + 10 / 10; 
+
+		System.out.print(a);
+	}
+}
+```
+- - Tente resolver mentalmente. Se você pensou que a resposta seria 2. Está errado. O resultado é 11.
+ Mas, por quê? Ora, existe a precedência de operadores. Uma regra que resume bem é PEMDAS, vejamos:
+![img_2.png](img_2.png)
+- Então, para a conta ter como resultado 2, o modo correto seria:
+```java
+public class Main
+{
+	public static void main(String[] args) {
+		
+		int a = (10 + 10) / 10; 
+
+		System.out.print(a);
+	}
+}
+```
+- - -
+## Casting (conversão de tipos)
+- Casting, também conhecido como conversão direta, é uma forma de alterar diretamente o valor de um tipo de dado para outro.
+- Vamos imaginar um cenário em que estarei operando com tipo `float`, mas não quero usar `printf()`. Então,
+ uso casting para mudar ao tipo inteiro.
+```java
+public class Main
+{
+	public static void main(String[] args) {
+		
+		float valorFloat = 2032f; 
+        int valorInt = (int) valorFloat;
+        
+        // Fiz uma conversão direta
+		System.out.println("Valor Anterior: "+ valorFloat);
+		System.out.println("Valor Atualizado: "+ valorInt);
+	}
+}
+```
+- Em algumas contas matemáticas,
+
