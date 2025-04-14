@@ -7,11 +7,12 @@
 - Classes e Objetos
 - - Boas práticas para criação de Classes e Objetos
 - - Atributos e métodos
-- Construtores
+- Encapsulamento
+- - Set e Get
+- - Construtores
 - - Palavra this
 - - Sobrecarga
-- - Encapsulamento
----
+- - Modificadores de acesso
 
 ## 📚 Sumário teórico
 Nessa seção, eu darei uma explicação sobre os conceitos acima, em minhas próprias palavras,
@@ -29,7 +30,7 @@ que estão começando sua jornada em Java, ou OOP.
  (características) e métodos (comportamento) de um Objeto. Para representar melhor imaginemos
  a criação de um Carro. 
 
- ```
+ ```java
  //Ignoraremos os modificadores para focarmos na estrutura da classe.
  
  public class Carro{
@@ -52,7 +53,7 @@ que estão começando sua jornada em Java, ou OOP.
  Digamos que eu quero representar um Fusca, como eu faria? Simples, como eu já possuo a estrutura de qualquer carro, 
  basta apenas criar o Objeto e instanciar os dados que eu quero nele, vejamos.
 
-```
+```java
 
 public class Main
 {
@@ -81,7 +82,7 @@ public class Main
 - - Em qualquer linguagem de programação devemos ter boas práticas na escrita de códigos para melhorar sua legibilidade, 
  facilitar compreensão de outras pessoas, visto que você provavelmente não trabalhará só, e deixar seu código mais limpo.
  Tudo que escrevemos deve ter clareza e fazer sentido lógico. Por exemplo:
-```
+```java
 public class Carro{
     public String a;
     public String b; 
@@ -106,7 +107,7 @@ public class Carro{
 - - - camelCase para variáveis, atributos e métodos;
 - - - PascalCase para Classes, enum e interfaces;
 - - - SCREAMING_SNAKE_CASE para constantes.
-```
+```java
  public class Pessoa{  // Classe padrão PascalCase 
     public String nome;
     public float alturaAtual;  // Atributos padrão camelCase
