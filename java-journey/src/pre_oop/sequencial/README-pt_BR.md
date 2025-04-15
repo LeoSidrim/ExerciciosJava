@@ -143,5 +143,38 @@ public class Main
 	}
 }
 ```
-- Em algumas contas matemáticas,
+- - -
+## Ordem lógica da execução
+- Comandos obedecem uma ordem sequencial. Ou seja, de forma ordenada. Cada linha de comando é executada na ordem que foi 
+ inserida. Isso também deve atentar-nos ao fato de que variáveis também podem mudar de valor. A não ser, que seja declarada
+ como `final`.
+```java
+public class Main{
+    public static void main (String[] args){
+        
+        int num = 10;
+        num = 20;
+        System.out.print(num); // Não irá mais imprimir 10, mas sim 20.
+    }
+}
+```
+- - -
+## Concatenação de Strings
+- Em Java, concatenação de Strings é juntarmos uma String a outra e assim gerarmos uma nova String. Ex:
+```java
+public class Main{
+    public static void main (String[] args){
+        
+        
+        String name = "Estou aprendendo Java";
+        String name2 = " e fazendo um portifólio";
+     
+        System.out.println(name+name2);
+    }
+    
+}
+```
+- Esta é uma das formas mais simples de concatenarmos Strings em Java
+
+
 
