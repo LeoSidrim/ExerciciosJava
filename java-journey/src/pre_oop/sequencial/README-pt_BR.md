@@ -12,8 +12,7 @@
 - - 🧠 Casting (conversão de tipos)
 - - 📏 Ordem lógica da execução
 - - 🧾 Concatenação de strings
-- - 🧊 Constantes (final em Java)
-- - [📐 Exercícios]()
+- - [📐 Exercícios](./exercises)
 ---
 
 ## Entrada e saída de dados
@@ -93,10 +92,10 @@ public class Main
 ```
 - - -
 ## Tipos de dados primitivos
-![img.png](img.png)
+![img.png](imgs/img.png)
 - - -
 ## Operadores aritméticos
-![img_1.png](img_1.png)
+![img_1.png](imgs/img_1.png)
 - - Assim como na matemática usual, devemos seguir a precedência dos operados para realizar uma conta aritmética.
 ```java
 public class Main
@@ -111,7 +110,7 @@ public class Main
 ```
 - - Tente resolver mentalmente. Se você pensou que a resposta seria 2. Está errado. O resultado é 11.
  Mas, por quê? Ora, existe a precedência de operadores. Uma regra que resume bem é PEMDAS, vejamos:
-![img_2.png](img_2.png)
+![img_2.png](imgs/img_2.png)
 - Então, para a conta ter como resultado 2, o modo correto seria:
 ```java
 public class Main
@@ -160,21 +159,65 @@ public class Main{
 ```
 - - -
 ## Concatenação de Strings
-- Em Java, concatenação de Strings é juntarmos uma String a outra e assim gerarmos uma nova String. Ex:
+- Em Java, concatenação de Strings é juntarmos uma String a outra e assim gerarmos uma nova String. 
+- ### 1 | Operador +
 ```java
 public class Main{
     public static void main (String[] args){
-        
-        
+        String a = "Olá, ";
+        String b = a + "mundo";
         String name = "Estou aprendendo Java";
         String name2 = " e fazendo um portifólio";
-     
-        System.out.println(name+name2);
+        
+        System.out.println(name + name2);
+        System.out.print(b);
+        
     }
     
 }
 ```
-- Esta é uma das formas mais simples de concatenarmos Strings em Java
-
-
+- - Esta é uma das formas mais simples de concatenarmos Strings em Java
+- ### 2 | Método Concat()
+```java
+public class Main{
+    public static void main (String[] args){
+        String name = "Estou aprendendo Java";
+        String name2 = " e fazendo um portifólio";
+        String c = name.concat(name2);
+        System.out.print(c);
+        
+    }
+}
+```
+- - Muito semelhante ao operador `+`. 
+- ### 3 | StringBuilder
+```java
+public class Main {
+ public static void main (String[] args){
+  StringBuilder sb = new StringBuilder();
+  sb.append("Olá!, ");
+  sb.append("me chamo Leonardo.");
+  sb.append(" Tenho ");
+  sb.append(19);
+  sb.append(" anos");
+  String result = sb.toString();
+  System.out.println(sb.toString());
+  System.out.println(result);
+ }
+}
+```
+- - Mais robusto, rápido e eficiente. Ideal para muitas concatenações e loops
+- ### 4 | String.format()
+```java
+public class Main {
+ public static void main (String[] args){
+  String name = "Java";
+  int version = 17 ;
+  String resultado = String.format("Eu estudo %s na versão %d lts",name,version);
+  System.out.print(resultado);
+ }
+}
+```
+- - Muito semelhante ao `printf`
+- - -
 
