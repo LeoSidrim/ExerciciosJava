@@ -12,7 +12,7 @@
 - - 🧠 Casting (conversão de tipos)
 - - 📏 Ordem lógica da execução
 - - 🧾 Concatenação de strings
-- - [📐 Exercícios](./exercises)
+- - [📐 Exercícios](./exercises/README-pt_BR.md)
 ---
 
 ## Entrada e saída de dados
