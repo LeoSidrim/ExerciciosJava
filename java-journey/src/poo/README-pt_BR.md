@@ -1,10 +1,10 @@
 < [🔙 Voltar ao menu](../README-pt_BR.md)
-# PRÉ OOP - Java ☕︎
+# OOP - Java ☕︎
 
 ---
 ## 🗃️ **Módulos de Estudo**
 
-- [🔢 **Estrutura Sequencial** ➡️](./sequencial/README-pt_BR.md)  
+- [🔢 **Introdução** ➡️](./introduction/README-pt_BR.md)  
   _Entenda como programar em sequência, com entrada e saída de dados, operadores e muito mais!_  
   _Desvende o básico para colocar sua lógica em ação._
 

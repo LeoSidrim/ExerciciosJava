@@ -1,14 +1,76 @@
-> 🇧🇷 versão em português disponível [aqui](README-pt_BR.md) 🟢
-# JAVA DEV JOURNEY (Junior to senior) 🚀
+> 🇺🇸 English version coming soon... 🟢
+
+# 🚀 dev-java-journey
+
+📘 **Repositório de estudos e revisão dos conceitos fundamentais de Java**, com foco em back-end.  
+Estruturado de forma didática, com explicações e exemplos que vão da lógica básica até conceitos mais avançados.
 
 ---
-This repository contains my journey learning Java.
-I´m doing this project to stay organize, track my progress and share my knowledge with other students. And also, 
-serves as part of my portfolio.
+
+## 📚 Estrutura do Repositório
+
+| Módulo               | Tópicos                                                               | Status          |
+|----------------------|-----------------------------------------------------------------------|-----------------|
+| `01-sequencial`      | Entrada/Saída, Variáveis, Tipos, Operadores, Casting                  | ✅ Finalizado    |
+| `02-condicional`     | `if/else`, `switch`, Operadores lógicos                               | 🔄 Em andamento |
+| `03-repeticao`       | `while`, `for`, `do-while`, `break`/`continue`                        | ⏳ Em breve      |
+| `04-funcoes-metodos` | Métodos, parâmetros, retorno                                          | ⏳ Em breve      |
+| `05-poo`             | Introdução, Classesm, Objetos e métodos, encapsulamento, construtores | ⏳ Em breve      |
+
+- **Menu de navegação** 🐳 [**Clique aqui para acessar o menu**](./java-journey/src/README-pt_BR.md)
+---
+
+## 📌 Objetivos
+
+- ☕ Consolidar os fundamentos de Java
+- 🗂️ Praticar a organização de projetos com Git
+- 🌱 Criar uma base sólida para avançar em frameworks como Spring Boot
+- 🔄 Demonstrar comprometimento com aprendizado contínuo
 
 ---
-## Modules 📚
 
-- [Introduction for POO 📦](java-journey/src/poo/introduction/README.md)
-- []()
-- 
+## 💡 Sobre mim
+
+Sou estudante de desenvolvimento back-end com foco em Java.  
+Aqui você encontrará meus estudos, anotações e explicações organizadas como se fosse **meu próprio caderno técnico revisável**.
+
+💼 Busco uma vaga como **Dev Back-End Java Júnior**.  
+📫 [LinkedIn](https://www.linkedin.com/in/leonardo-sidrim/) · 📁 Portfólio pessoal *(⏳ Em breve)*
+
+---
+
+## 🛠️ Como está organizado?
+
+Cada pasta representa um módulo de aprendizado.  
+Dentro de cada uma você encontrará:
+
+- ✅ Códigos para visualização prática dos conceitos
+- ✅ Explicações claras e diretas sobre os temas
+- ✅ Comentários nos códigos para facilitar o entendimento
+
+---
+
+## 📌 Tecnologias Utilizadas
+
+- Java 17 ☕
+- IntelliJ IDEA 💡
+- Git / GitHub 🌐
+- Markdown 📝
+
+---
+
+## ✨ Em breve...
+
+- Módulo de POO com exemplos práticos
+- Exercícios integrando lógica com estrutura de dados
+- Projetos maiores com Spring Boot e API REST (em outro repositório)
+
+---
+
+## 💬 Contato
+
+Me chame no [LinkedIn](https://www.linkedin.com/in/leonardo-sidrim/) ou envie um e-mail para: `leonardosidrim@gmail.com`
+
+---
+
+> _“A prática leva à excelência, e a organização mostra o quanto você está pronto.”_
