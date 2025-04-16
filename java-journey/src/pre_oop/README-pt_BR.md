@@ -3,5 +3,5 @@
 - - -
 ## 🗃️ Módulos 
 - [Estrutura sequencial ➡️](./sequencial/README-pt_BR.md)
-- [Estrutura condicional 🔀]() 
+- [Estrutura condicional 🔀](./condicional/README-pt_BR.md) 
 - [Estrutura repetitiva 🔄]() 
