@@ -117,3 +117,19 @@ public class Main{
     }
 }
 ```
+---
+### 🎚️ Operador ternário (`? :`)
+
+- O operador ternário é uma forma elegante de escrever `if - else`. Ele é chamado ternário porque envolve três partes.
+```java
+public class Main{
+    public static void main (String[] args){
+        int numero = 8;
+        String tipo = (numero % 2 == 0) ? "Par" : "Ímpar";
+        System.out.println(tipo);
+    }
+}
+```
+---
+### 
+
