@@ -10,60 +10,32 @@ public class Main {
         int numero;
         double depositoInicial;
         char temDeposito;
-        ContaBancaria conta = null;
+        ContaBancaria conta;
 
-        while(true){
-            System.out.println("---MENU---\n");
-            System.out.println("1 - CADASTRO DE CONTA");
-            System.out.println("2 - SAQUE");
-            System.out.println("3 - DEPOSITO");
-            System.out.println("4 - SAIR\n");
-            int x = sc.nextInt(); // Navegar pelo switch
+        System.out.print("Enter account number: ");
+        numero = sc.nextInt();
+        sc.nextLine(); // Consumir o "enter" do buffer
+        System.out.print("Enter the account holder: ");
+        titular = sc.nextLine();
+        System.out.print("Is there a initial deposit (y/n)? ");
+        temDeposito = sc.next().charAt(0);
 
-            switch (x){
-                case 1:
-
-                    System.out.println("---CADASTRO DE CONTAS---");
-                    sc.nextLine();
-                    System.out.println("Insira seu nome: ");
-                    titular = sc.nextLine();
-                    System.out.println("Insira o número da conta: ");
-                    numero = sc.nextInt();
-                    sc.nextLine();
-                    System.out.println("Deseja fazer depósito inicial? ");
-                    temDeposito = sc.next().charAt(0);
-
-
-
-                    if (temDeposito == 's' || temDeposito == 'S'){
-                        System.out.println("Insira valor de depósito inicial: ");
-                        depositoInicial = sc.nextDouble();
-                        conta = new ContaBancaria(numero,titular,depositoInicial); // Cria objeto conta com todos os parâmetros
-                    } else {
-                        conta = new ContaBancaria(numero,titular);
-                    }
-                    break;
-                case 2:
-                    System.out.print("Insira valor para saque: ");
-                    conta.saque(sc.nextDouble());
-
-                    break;
-                case 3:
-
-                    break;
-                case 4:
-
-                    System.out.print("Encerrando programa...");
-                    sc.close();
-                    return;
-
-                default:
-                    System.out.println("Opção inválida");
-
-            }
-            System.out.println();
+        if (temDeposito == 'y' || temDeposito == 'Y'){
+            System.out.print("Enter initial deposit value: ");
+            depositoInicial = sc.nextDouble();
+            conta = new ContaBancaria(numero,titular,depositoInicial);
+            conta.exibirDados();
+                System.out.println();
+        } else {
+            conta = new ContaBancaria(numero,titular);
+            conta.exibirDados();
         }
 
+        System.out.print("Enter a deposit value: ");
+        conta.deposito(sc.nextDouble());
+
+        System.out.print("Enter a withdraw value: ");
+        conta.saque(sc.nextDouble());
 
     }
 }

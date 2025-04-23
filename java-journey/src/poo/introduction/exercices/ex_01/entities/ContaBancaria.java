@@ -39,6 +39,6 @@ public class ContaBancaria {
         System.out.println("Nome alterado com sucesso");
     }
     public void exibirDados(){
-       System.out.printf("- CONTA: %d\nNOME TITULAR: %s\nSALDO: %.2f",numero,nome,saldo);
+       System.out.printf("\nAccount data: \nAccount %d, HOLDER: %s, Balance: $ %.2f\n",numero,nome,saldo);
     }
 }
