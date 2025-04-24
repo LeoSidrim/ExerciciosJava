@@ -15,22 +15,27 @@ public class ContaBancaria {
     }
 
     public void deposito (double valor){
-        if (valor > 0){
-            this.saldo += valor;    // implementa valor na conta
-            System.out.printf("Depósito de %.2f feito com sucesso",valor);
-        } else {
-            System.out.print("Valor inválido");
-        }
+
+            if (valor > 0) {
+                this.saldo += valor;    // implementa valor na conta
+                System.out.printf("Depósito de %.2f feito com sucesso\n", valor);
+
+            } else {
+                System.out.println("Valor inválido. Insira um valor maior que 0");
+            }
+
         exibirDados();
     }
     public void saque (double valor){
-        double valorSaque = valor + 5; // acréscimo de taxa
-        if (valorSaque > this.saldo || this.saldo == 0){
-            System.out.println("Saldo insuficiente");
-        } else  {
-            this.saldo -= valorSaque;
-            System.out.printf("Saque de %.2f feito com sucesso\n",valor);
-        }
+
+            double valorSaque = valor + 5; // acréscimo de taxa
+            if (valorSaque > this.saldo || this.saldo == 0) {
+                System.out.println("Saldo insuficiente");
+            } else {
+                this.saldo -= valorSaque;
+                System.out.printf("Saque de %.2f feito com sucesso\n", valor);
+            }
+
         exibirDados();
 
     }
